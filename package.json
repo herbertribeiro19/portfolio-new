@@ -1,7 +1,7 @@
 {
-  "name": "rishav-chanda-portfolio",
+  "homepage": "https://herbertribeiro19.github.io/Portifolio",
+  "name": "Portfólio - Herbert Ribeiro",
   "version": "0.1.0",
-  "homepage": "https://rishavchanda.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
