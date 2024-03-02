@@ -267,6 +267,7 @@ export const projects = [
     github: "https://github.com/herbertribeiro19/GoW",
     webapp: "https://herbertribeiro19.github.io/GoW",
   },
+
   {
     id: 1,
     title: "Isteric Agency",
@@ -287,6 +288,27 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Event Management System",
+    date: "Apr 2023 - Jun 2023",
+    description:
+      "The project's initial proposal was to develop an online event management system. And with this in mind, we decided to develop an event management system, which contains User registration, User entry and exit, User profile, Add Event, User administration (user admin), Event removal and payment registration",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/event%20site.png?raw=true",
+    tags: ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "Ajax", "XAMMP", "Git", "GitHub"],
+    category: "web app",
+    github: "https://github.com/FelipeRodrigues662/LabProg",
+    webapp: "https://github.com/FelipeRodrigues662/LabProg",
+    member: [
+      {
+        name: "Felipe Rodrigues",
+        img: "https://avatars.githubusercontent.com/u/82169870?v=4",
+        linkedin: "https://www.linkedin.com/in/felipe-pereira-rodrigues-640677211/",
+        github: "https://github.com/FelipeRodrigues662/",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Cumply™",
     date: "Jul 2023 - Aug 2023",
     description:
@@ -297,23 +319,10 @@ export const projects = [
     category: "web app",
     github: "https://cumply.com.br/",
     webapp: "https://cumply.com.br/",
-    // member: [
-    //   {
-    //     name: "Rishav Chanda",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   {
-    //     name: "Upasana Chaudhuri",
-    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //     github: "https://github.com/upasana0710",
-    //   },
-    // ],
   },
+
   {
-    id: 3,
+    id: 4,
     title: "Verde Agritech Website",
     date: "Jan 2022 - Present",
     description:
@@ -327,69 +336,41 @@ export const projects = [
   },
 
   {
-    id: 4,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "mobile app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "mobile app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Assassin's Creed Valhalla",
+    date: "Apr 2022 - May 2022",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "Game product page design and development about the Assassin's Creed Valhalla.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+      "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/projeto6.png?raw=true",
+    tags: ["HTML", "CSS", "SCSS", "JavaScript", "ReactJS", "Git", "GitHub", "SwiperJS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://github.com/herbertribeiro19/Valhalla",
+    webapp: "https://herbertribeiro19.github.io/Valhalla",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+    title: "Architect & Urban Page",
+    date: "Mar 2023",
+    description: "Professional portfolio - Brenda Fiuza (Architect and Urban Planner)",
+    image: "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/projeto11.png?raw=true",
+    tags: ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    github: "https://github.com/herbertribeiro19/BrendaFiuza",
+    webapp: "https://herbertribeiro19.github.io/BrendaFiuza",
+  },
+  {
+    id: 7,
+    title: "Login Page",
+    date: "Oct 2022",
+    description:
+      "A website of Login for study",
+    image:
+      "https://github.com/herbertribeiro19/Login/raw/master/.github/preview.png",
+    tags: ["HTML", "CSS", "Git", "GitHub"],
+    category: "web app",
+    github: "https://github.com/herbertribeiro19/Login",
+    webapp: "https://herbertribeiro19.github.io/Login/",
   },
   {
     id: 7,
