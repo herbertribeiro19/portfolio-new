@@ -6,14 +6,11 @@ export const Bio = {
     "UI/UX Designer",
   ],
   description:
-    "Hi, I'm Herbert Ribeiro, student of the Information Systems course at the Federal University of Viçosa (UFV) and computer technician from the Federal Institute of Bahia. In my career as a UI/UX Designer and Web Designer, I am developing skills and knowledge that will enable me to Allow Create exceptional digital experiences. My goal is to contribute to innovative projects, which combine aesthetics, usability and efficiency, providing value to users and businesses.",
+    "Student of the Information Systems course at the Federal University of Viçosa (UFV) and computer technician from the Federal Institute of Bahia. In my career as a UI/UX Designer & FrontEnd and Mobile Developer, I am developing skills and knowledge that will enable me to Allow Create exceptional digital experiences. My goal is to contribute to innovative projects, which combine aesthetics, usability and efficiency, providing value to users and businesses.",
   github: "https://github.com/herbertribeiro19",
-  resume:
-    "https://drive.google.com/drive/folders/1Jpkq4_YrCbLxQ4jlS7YQbqnxpKNlvwnm?usp=share_link",
+  resume: "https://drive.google.com/drive/folders/1Jpkq4_YrCbLxQ4jlS7YQbqnxpKNlvwnm?usp=share_link",
   linkedin: "https://www.linkedin.com/in/herbertribeiro19/",
-  twitter: "",
   insta: "https://www.instagram.com/hebert_r18/",
-  facebook: "",
 };
 
 export const skills = [
@@ -350,6 +347,19 @@ export const projects = [
   },
   {
     id: 6,
+    title: "LandingPage Agritech",
+    date: "May 2023",
+    description:
+      "Development of LandingPage about fertilizer company.",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/f0507438c5cf6784e0afd996a8bfcc5958011d62/src/images/verde-landingpage.png?raw=true",
+    tags: ["HTML", "CSS", "Git", "GitHub"],
+    category: "web app",
+    github: "https://github.com/herbertribeiro19/verdeag-designer",
+    webapp: "https://herbertribeiro19.github.io/verdeag-designer/",
+  },
+  {
+    id: 7,
     title: "Architect & Urban Page",
     date: "Mar 2023",
     description: "Professional portfolio - Brenda Fiuza (Architect and Urban Planner)",
@@ -360,7 +370,7 @@ export const projects = [
     webapp: "https://herbertribeiro19.github.io/BrendaFiuza",
   },
   {
-    id: 7,
+    id: 8,
     title: "Login Page",
     date: "Oct 2022",
     description:
@@ -373,37 +383,72 @@ export const projects = [
     webapp: "https://herbertribeiro19.github.io/Login/",
   },
   {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    id: 9,
+    title: "Shopping App",
+    date: "May 2023",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+      "Aplication of Shopping to Mobile (IOS and Android) 📱",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+      "https://private-user-images.githubusercontent.com/84207944/309497579-3e6dd7f0-e012-4473-b4b9-697f83057eb9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk0MDk3MjYsIm5iZiI6MTcwOTQwOTQyNiwicGF0aCI6Ii84NDIwNzk0NC8zMDk0OTc1NzktM2U2ZGQ3ZjAtZTAxMi00NDczLWI0YjktNjk3ZjgzMDU3ZWI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAyVDE5NTcwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiZDI5ZGY0Mzc3MTliZDgyNmM0MDU3YzlhN2ViMTAyOTk3ZTExOWEzZjZhZWFjNDk0ODYzZjkzYmJlNjFkZmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fSC23fI3ZWcdUKeMROqjg7htyLdyu1sR34PoeoHaxMc",
+    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
     category: "mobile app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    github: "https://github.com/herbertribeiro19/app_layout",
+    webapp: "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
   },
   {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    id: 10,
+    title: "ToDo List Market App",
+    date: "Mar 2023",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+      "Aplication of ToDo List Market to Mobile (IOS and Android) 📱",
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "https://private-user-images.githubusercontent.com/84207944/309497238-9938cd43-0b35-42cd-b4e6-c4507b47c3c4.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk0MDkyNTksIm5iZiI6MTcwOTQwODk1OSwicGF0aCI6Ii84NDIwNzk0NC8zMDk0OTcyMzgtOTkzOGNkNDMtMGIzNS00MmNkLWI0ZTYtYzQ1MDdiNDdjM2M0LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAyVDE5NDkxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE4M2RiODlkMzE4YmZiNmY5OTczNGEyYjQ1Zjc3NTU0NTg1ZjYwMmI0NTAzMzYzNzMyY2I3ZTM3NWJmMWU1NzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.AJxZbmRjhDCTwAdrJyFE3rpccXtnVaMgAdPnsZYSyJE",
+    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/balta01app",
+    webapp: "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
+  },
+  {
+    id: 11,
+    title: "iMarket - IOS App",
+    date: "Nov 2023",
+    description: "IOS Shopping App (iMarket), design with interaction app made inspirated by Apple Design and IOS Design, created by me.",
+    image: "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/CAPA%20IOS.png?raw=true",
+    tags: ["Figma", "Perspective 3D", "Adobe Photoshop", "Adobe Illustrator", "UI Material Design", "UI Kit", "Heurístics", "UX Design"],
     category: "ui design",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    webapp: "https://www.figma.com/community/file/1308587401731650667/apple-ios-shopping-app-imarket",
+  },
+  {
+    id: 12,
+    title: "Adidas Shopping App",
+    date: "May 2023",
+    description:
+      "Adidas Shopping App, design app made inspirated by Adidas Shoots, created by me.",
+
+    image: "https://github.com/herbertribeiro19/portfolio-new/blob/master/src/images/design.png?raw=true",
+    tags: ["Figma", "Perspective 3D", "Adobe Photoshop", "Adobe Illustrator", "UI Material Design", "Heurístics"],
+    category: "ui design",
+    // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    webapp: "https://www.figma.com/community/file/1281430267152535778/adidas-app-layout-ui-design-community",
+  },
+  {
+    id: 13,
+    title: "UaiMusic",
+    date: "May 2023",
+    description: "App of music stream, design app made inspirated by Spotify, Youtube Music and Amazon Music. Made for the college subject human and computer interaction (IHC).",
+    image: "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/app2.png?raw=true",
+    tags: ["Figma", "Perspective 3D", "Adobe Photoshop", "Adobe Illustrator", "Heurístics"],
+    category: "ui design",
+    // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    webapp: "https://www.figma.com/community/file/1286500198572812973/uaimusic-music-interface",
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];

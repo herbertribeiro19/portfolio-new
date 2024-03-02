@@ -3,7 +3,7 @@ import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, B
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
+import { Close, CloseRounded, GitHub } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import HeroImg from '../../images/logoicon_herbert.png'
 
@@ -33,7 +33,7 @@ const Navbar = () => {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
+          <GitHubButton style={{ gap: "6px" }} href={Bio.github} target="_blank" > <GitHub /> Github Profile</GitHubButton>
         </ButtonContainer>
         {
           isOpen &&
@@ -53,7 +53,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{ gap: "6px", padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank"><GitHub /> Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
