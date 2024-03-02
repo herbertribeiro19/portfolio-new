@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Código"
+		},
+		{
+			"path": "../../../../../../../../../../xampp/htdocs/LabProg"
+		},
+		{
+			"path": "../../../../../../Código/Formulários Integrados"
+		},
+		{
+			"path": "../../../Verde-codigos testes"
+		},
+		{
+			"path": "../../../../../../../../Downloads/herbert/INICIAL/formulario animado"
+		},
+		{
+			"path": "../../../../../../../../Downloads/herbertV2/INICIAL/formulario animado"
+		},
+		{
+			"path": "../../../timerest"
+		},
+		{
+			"path": "../../../../../../../Documentos/bruteforce"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Portif-lio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React-portfolio"
+	}
+}
