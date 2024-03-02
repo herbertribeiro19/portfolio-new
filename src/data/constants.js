@@ -35,6 +35,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
+        name: "SCSS",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ16uhmICHnoGAIIbWkj-rUIa8CWvYYxpr1nrNSl8cdONZ3YvGeCryo_gj9bl57reyjpmA&usqp=CAU",
+      },
+      {
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
@@ -251,105 +256,78 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Marketing Agency",
-    date: "Jan 2024 - Jan 2024",
+    title: "God of War",
+    date: "Jan 2023 - Mar 2023",
     description:
-      "App made to marketing agency owner",
+      "Made the clone of God of War page, game exclusive for Playstation and Sony users. ",
     image:
-      "https://github.com/herbertribeiro19/portfolio-new/blob/ce4bda6350acbe574a42194ecc5cef7b486f8912/src/images/HeroImage.jpeg",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+      "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/projeto5.png?raw=true",
+    tags: ["HTML", "CSS", "SCSS", "JavaScript", "ReactJS", "Git", "GitHub", "SwiperJS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/herbertribeiro19/GoW",
+    webapp: "https://herbertribeiro19.github.io/GoW",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "Isteric Agency",
+    date: "Jan 2024 - Jan 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Website made to marketing agency owner.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/isteric.png?raw=true",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web Hosting",
     ],
+    github: "https://isteric.cumply.com.br/",
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://isteric.cumply.com.br/",
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    title: "Cumply™",
+    date: "Jul 2023 - Aug 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Development of ecommerce website about clothing brand for owner show your shirts and sell.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "ui design",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+      "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/cumplyimg.png?raw=true",
+    tags: ["React Js", "HTML", "CSS", "JavaScript", "Wordpress", "API", "Web Hosting",],
+    category: "web app",
+    github: "https://cumply.com.br/",
+    webapp: "https://cumply.com.br/",
+    // member: [
+    //   {
+    //     name: "Rishav Chanda",
+    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //     github: "https://github.com/rishavchanda/",
+    //   },
+    //   {
+    //     name: "Upasana Chaudhuri",
+    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+    //     github: "https://github.com/upasana0710",
+    //   },
+    // ],
   },
   {
     id: 3,
+    title: "Verde Agritech Website",
+    date: "Jan 2022 - Present",
+    description:
+      "Designed and developed the Verde Agritech project website.",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/verdesite.png?raw=true",
+    tags: ["React Js", "HTML", "CSS", "JavaScript", "Wordpress", "API", "Web Hosting",],
+    category: "web app",
+    github: "https://verde.ag/",
+    webapp: "https://verde.ag/",
+  },
+
+  {
+    id: 4,
     title: "Buckoid",
     date: "Dec 2021 - Apr 2022",
     description:
