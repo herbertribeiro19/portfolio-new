@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "Student of the Information Systems course at the Federal University of Viçosa (UFV) and computer technician from the Federal Institute of Bahia. In my career as a UI/UX Designer & FrontEnd and Mobile Developer, I am developing skills and knowledge that will enable me to Allow Create exceptional digital experiences. My goal is to contribute to innovative projects, which combine aesthetics, usability and efficiency, providing value to users and businesses.",
   github: "https://github.com/herbertribeiro19",
-  resume: "https://drive.google.com/drive/folders/1Jpkq4_YrCbLxQ4jlS7YQbqnxpKNlvwnm?usp=share_link",
+  resume: "https://drive.google.com/drive/folders/1UdaUsYHwLQ-q7GjZnBQlOu_PquaYfln3?usp=sharing",
   linkedin: "https://www.linkedin.com/in/herbertribeiro19/",
   insta: "https://www.instagram.com/hebert_r18/",
 };
