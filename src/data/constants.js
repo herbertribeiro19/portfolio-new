@@ -1,14 +1,11 @@
 export const Bio = {
   name: "Herbert Ribeiro",
-  roles: [
-    "FrontEnd Developer",
-    "Mobile Developer",
-    "UI/UX Designer",
-  ],
+  roles: ["Mobile Developer", "FrontEnd Developer", "UI/UX Designer"],
   description:
     "Student of the Information Systems course at the Federal University of Viçosa (UFV) and computer technician from the Federal Institute of Bahia. In my career as a UI/UX Designer & FrontEnd and Mobile Developer, I am developing skills and knowledge that will enable me to Allow Create exceptional digital experiences. My goal is to contribute to innovative projects, which combine aesthetics, usability and efficiency, providing value to users and businesses.",
   github: "https://github.com/herbertribeiro19",
-  resume: "https://drive.google.com/drive/folders/1UdaUsYHwLQ-q7GjZnBQlOu_PquaYfln3?usp=sharing",
+  resume:
+    "https://drive.google.com/drive/folders/1UdaUsYHwLQ-q7GjZnBQlOu_PquaYfln3?usp=sharing",
   linkedin: "https://www.linkedin.com/in/herbertribeiro19/",
   insta: "https://www.instagram.com/hebert_r18/",
 };
@@ -80,13 +77,14 @@ export const skills = [
     title: "Mobile",
     skills: [
       {
-        name: "Swift",
+        name: "React Native",
         image:
-          "https://cdn.icon-icons.com/icons2/2699/PNG/512/swift_logo_icon_168770.png",
+          "https://camo.githubusercontent.com/fc076a1b971169ed7b74f6aa9f701c81e96d1efc1829b8f8fcd06104d6013be2/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656163742d6e61746976652d312e737667",
       },
       {
-        name: "Kotlin",
-        image: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        name: "Flutter",
+        image:
+          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
       },
       {
         name: "Dart",
@@ -94,9 +92,14 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Dart_logo.png/768px-Dart_logo.png",
       },
       {
-        name: "Flutter",
+        name: "Swift",
         image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          "https://cdn.icon-icons.com/icons2/2699/PNG/512/swift_logo_icon_168770.png",
+      },
+      {
+        name: "Kotlin",
+        image:
+          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
     ],
   },
@@ -105,8 +108,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -156,7 +158,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/C4D0BAQF8APrQIpJWSQ/company-logo_200_200/0/1643685760144/verde_agritech_logo?e=1717632000&v=beta&t=TH9EGgdmW9KOifQmb--ZPHe-TL0kH1fqWWD7p3slPzc",
-    role: "Designer UI/UX and FrontEnd Developer",
+    role: "FrontEnd Developer and Designer UI/UX Pleno",
     company: "Verde Agritech",
     date: "Jan 2022 - Present",
     desc: "Development and protype of Websites and Landing Pages",
@@ -164,6 +166,8 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
+      "PHP",
+      "MySQL",
       "Figma",
       "Web Hosting",
       "Adobe Photoshop",
@@ -175,8 +179,34 @@ export const experiences = [
     ],
   },
   {
+    id: 4,
+    img: "https://scontent.fssa3-1.fna.fbcdn.net/v/t39.30808-6/303130455_385042277135568_5357019035371369044_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YBRJOaKlMvgAb6xiWj3&_nc_zt=23&_nc_ht=scontent.fssa3-1.fna&oh=00_AfDsjYgvEo3MNcXoSwct0F9cUyCocw6u3qB5txwM4HfAkA&oe=662C9EFE",
+    role: "UI/UX Designer - Freelancer",
+    company: "Zenbytes",
+    date: "Mar 2024 - Present",
+    desc: "Protype of Systems to new project Development",
+    skills: [
+      "Figma",
+      "UI",
+      "UX",
+      "Designer UI/UX",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Material UI",
+    ],
+  },
+  {
+    id: 5,
+    img: "https://media.licdn.com/dms/image/C560BAQEvvV-zVynUDA/company-logo_200_200/0/1635278684012/labtrackensino_logo?e=2147483647&v=beta&t=vNMqJ_3fhtuV1_MWIMS7KFKC85JIcHgBR8_LSPDlDnE",
+    role: "FrontEnd Developer - Freelancer",
+    company: "LabTrack",
+    date: "Mar 2024 - Mar 2024",
+    desc: "Development of Functional System to a english school",
+    skills: ["HTML", "CSS", "TypeScript", "ReactJS", "NextJS", "PWA", "Figma"],
+  },
+  {
     id: 1,
-    img: "https://media.licdn.com/dms/image/sync/D4D27AQH4L1oBFELOLQ/articleshare-shrink_800/0/1708517073236?e=1710007200&v=beta&t=T6vBJDvc4ETMNWSlI84NuBI-PFtQZKvn6sm-5u5XW74",
+    img: "https://cumply.com.br/wp-content/uploads/2023/08/logo-822x1024.png",
     role: "Software Developer (Freelancer)",
     company: "Cumply™ - Clothing",
     date: "Jan 2019 - Present",
@@ -259,7 +289,16 @@ export const projects = [
       "Made the clone of God of War page, game exclusive for Playstation and Sony users. ",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/projeto5.png?raw=true",
-    tags: ["HTML", "CSS", "SCSS", "JavaScript", "ReactJS", "Git", "GitHub", "SwiperJS"],
+    tags: [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "ReactJS",
+      "Git",
+      "GitHub",
+      "SwiperJS",
+    ],
     category: "web app",
     github: "https://github.com/herbertribeiro19/GoW",
     webapp: "https://herbertribeiro19.github.io/GoW",
@@ -269,16 +308,10 @@ export const projects = [
     id: 1,
     title: "Isteric Agency",
     date: "Jan 2024 - Jan 2024",
-    description:
-      "Website made to marketing agency owner.",
+    description: "Website made to marketing agency owner.",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/isteric.png?raw=true",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Web Hosting",
-    ],
+    tags: ["HTML", "CSS", "JavaScript", "Web Hosting"],
     github: "https://isteric.cumply.com.br/",
     category: "web app",
     webapp: "https://isteric.cumply.com.br/",
@@ -291,7 +324,17 @@ export const projects = [
       "The project's initial proposal was to develop an online event management system. And with this in mind, we decided to develop an event management system, which contains User registration, User entry and exit, User profile, Add Event, User administration (user admin), Event removal and payment registration",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/event%20site.png?raw=true",
-    tags: ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "Ajax", "XAMMP", "Git", "GitHub"],
+    tags: [
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MySQL",
+      "Ajax",
+      "XAMMP",
+      "Git",
+      "GitHub",
+    ],
     category: "web app",
     github: "https://github.com/FelipeRodrigues662/LabProg",
     webapp: "https://github.com/FelipeRodrigues662/LabProg",
@@ -299,7 +342,8 @@ export const projects = [
       {
         name: "Felipe Rodrigues",
         img: "https://avatars.githubusercontent.com/u/82169870?v=4",
-        linkedin: "https://www.linkedin.com/in/felipe-pereira-rodrigues-640677211/",
+        linkedin:
+          "https://www.linkedin.com/in/felipe-pereira-rodrigues-640677211/",
         github: "https://github.com/FelipeRodrigues662/",
       },
     ],
@@ -312,7 +356,15 @@ export const projects = [
       "Development of ecommerce website about clothing brand for owner show your shirts and sell.",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/cumplyimg.png?raw=true",
-    tags: ["React Js", "HTML", "CSS", "JavaScript", "Wordpress", "API", "Web Hosting",],
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Wordpress",
+      "API",
+      "Web Hosting",
+    ],
     category: "web app",
     github: "https://cumply.com.br/",
     webapp: "https://cumply.com.br/",
@@ -322,11 +374,18 @@ export const projects = [
     id: 4,
     title: "Verde Agritech Website",
     date: "Jan 2022 - Present",
-    description:
-      "Designed and developed the Verde Agritech project website.",
+    description: "Designed and developed the Verde Agritech project website.",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/verdesite.png?raw=true",
-    tags: ["React Js", "HTML", "CSS", "JavaScript", "Wordpress", "API", "Web Hosting",],
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Wordpress",
+      "API",
+      "Web Hosting",
+    ],
     category: "web app",
     github: "https://verde.ag/",
     webapp: "https://verde.ag/",
@@ -340,7 +399,16 @@ export const projects = [
       "Game product page design and development about the Assassin's Creed Valhalla.",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/projeto6.png?raw=true",
-    tags: ["HTML", "CSS", "SCSS", "JavaScript", "ReactJS", "Git", "GitHub", "SwiperJS"],
+    tags: [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "ReactJS",
+      "Git",
+      "GitHub",
+      "SwiperJS",
+    ],
     category: "web app",
     github: "https://github.com/herbertribeiro19/Valhalla",
     webapp: "https://herbertribeiro19.github.io/Valhalla",
@@ -349,8 +417,7 @@ export const projects = [
     id: 6,
     title: "LandingPage Agritech",
     date: "May 2023",
-    description:
-      "Development of LandingPage about fertilizer company.",
+    description: "Development of LandingPage about fertilizer company.",
     image:
       "https://github.com/herbertribeiro19/portfolio-new/blob/f0507438c5cf6784e0afd996a8bfcc5958011d62/src/images/verde-landingpage.png?raw=true",
     tags: ["HTML", "CSS", "Git", "GitHub"],
@@ -362,8 +429,10 @@ export const projects = [
     id: 7,
     title: "Architect & Urban Page",
     date: "Mar 2023",
-    description: "Professional portfolio - Brenda Fiuza (Architect and Urban Planner)",
-    image: "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/projeto11.png?raw=true",
+    description:
+      "Professional portfolio - Brenda Fiuza (Architect and Urban Planner)",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/0d17e454fdaad886f3c069969800c992092700d3/src/images/projeto11.png?raw=true",
     tags: ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
     category: "web app",
     github: "https://github.com/herbertribeiro19/BrendaFiuza",
@@ -373,8 +442,7 @@ export const projects = [
     id: 8,
     title: "Login Page",
     date: "Oct 2022",
-    description:
-      "A website of Login for study",
+    description: "A website of Login for study",
     image:
       "https://github.com/herbertribeiro19/Login/raw/master/.github/preview.png",
     tags: ["HTML", "CSS", "Git", "GitHub"],
@@ -386,14 +454,14 @@ export const projects = [
     id: 9,
     title: "Shopping App",
     date: "May 2023",
-    description:
-      "Aplication of Shopping to Mobile (IOS and Android) 📱",
+    description: "Aplication of Shopping to Mobile (IOS and Android) 📱",
     image:
       "https://github.com/herbertribeiro19/app_layout/blob/master/assets/screenshots/phonemockup1.png?raw=true",
     tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
     category: "mobile app",
     github: "https://github.com/herbertribeiro19/app_layout",
-    webapp: "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
+    webapp:
+      "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
   },
   {
     id: 10,
@@ -406,18 +474,31 @@ export const projects = [
     tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
     category: "mobile app",
     github: "https://github.com/herbertribeiro19/balta01app",
-    webapp: "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
+    webapp:
+      "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
   },
   {
     id: 11,
     title: "iMarket - IOS App",
     date: "Nov 2023",
-    description: "IOS Shopping App (iMarket), design with interaction app made inspirated by Apple Design and IOS Design, created by me.",
-    image: "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/CAPA%20IOS.png?raw=true",
-    tags: ["Figma", "Perspective 3D", "Adobe Photoshop", "Adobe Illustrator", "UI Material Design", "UI Kit", "Heurístics", "UX Design"],
+    description:
+      "IOS Shopping App (iMarket), design with interaction app made inspirated by Apple Design and IOS Design, created by me.",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/CAPA%20IOS.png?raw=true",
+    tags: [
+      "Figma",
+      "Perspective 3D",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "UI Material Design",
+      "UI Kit",
+      "Heurístics",
+      "UX Design",
+    ],
     category: "ui design",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://www.figma.com/community/file/1308587401731650667/apple-ios-shopping-app-imarket",
+    webapp:
+      "https://www.figma.com/community/file/1308587401731650667/apple-ios-shopping-app-imarket",
   },
   {
     id: 12,
@@ -426,22 +507,73 @@ export const projects = [
     description:
       "Adidas Shopping App, design app made inspirated by Adidas Shoots, created by me.",
 
-    image: "https://github.com/herbertribeiro19/portfolio-new/blob/master/src/images/design.png?raw=true",
-    tags: ["Figma", "Perspective 3D", "Adobe Photoshop", "Adobe Illustrator", "UI Material Design", "Heurístics"],
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/master/src/images/design.png?raw=true",
+    tags: [
+      "Figma",
+      "Perspective 3D",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "UI Material Design",
+      "Heurístics",
+    ],
     category: "ui design",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://www.figma.com/community/file/1281430267152535778/adidas-app-layout-ui-design-community",
+    webapp:
+      "https://www.figma.com/community/file/1281430267152535778/adidas-app-layout-ui-design-community",
   },
   {
     id: 13,
     title: "UaiMusic",
     date: "May 2023",
-    description: "App of music stream, design app made inspirated by Spotify, Youtube Music and Amazon Music. Made for the college subject human and computer interaction (IHC).",
-    image: "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/app2.png?raw=true",
-    tags: ["Figma", "Perspective 3D", "Adobe Photoshop", "Adobe Illustrator", "Heurístics"],
+    description:
+      "App of music stream, design app made inspirated by Spotify, Youtube Music and Amazon Music. Made for the college subject human and computer interaction (IHC).",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/5682f41bea787d6b3239ea1ec1d441e5bbe5a503/src/images/app2.png?raw=true",
+    tags: [
+      "Figma",
+      "Perspective 3D",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Heurístics",
+    ],
     category: "ui design",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://www.figma.com/community/file/1286500198572812973/uaimusic-music-interface",
+    webapp:
+      "https://www.figma.com/community/file/1286500198572812973/uaimusic-music-interface",
+  },
+  {
+    id: 14,
+    title: "Finance Bank App",
+    date: "Apr 2024",
+    description:
+      "Finance Bank Aplication to Mobile made on MacOS with React Native 📱",
+    image:
+      "https://github.com/herbertribeiro19/AwesomeProject/blob/c8c657dbcae0155f94384f91b1c967d226161690/assets/capa_app.png?raw=true",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/AwesomeProject",
+    webapp: "https://github.com/herbertribeiro19/AwesomeProject",
+  },
+  {
+    id: 15,
+    title: "Convert DolarReal App",
+    date: "Dez 2023",
+    description: "Aplication of Conversion to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/Flutter_NewApp_Convert/blob/18469098cbf3bdb2b802cd16f0c722c9290d521b/assets/images/imgCapa.png?raw=true",
+    tags: ["Dart", "Flutter", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
+    webapp: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
   },
 ];
 
