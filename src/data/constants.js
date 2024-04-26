@@ -63,13 +63,18 @@ export const skills = [
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
-        name: "Python",
+        name: "PHP",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1422px-PHP-logo.svg.png?20180502235434",
       },
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://seeklogo.com/images/M/mysql-logo-B4943FE6DD-seeklogo.com.png",
       },
     ],
   },
@@ -207,7 +212,7 @@ export const experiences = [
   {
     id: 1,
     img: "https://cumply.com.br/wp-content/uploads/2023/08/logo-822x1024.png",
-    role: "Software Developer (Freelancer)",
+    role: "Software Developer - Freelancer (Partner)",
     company: "Cumply™ - Clothing",
     date: "Jan 2019 - Present",
     desc: "The development of Cumply's™ Website and Ecommerce was carried out",
