@@ -1,6 +1,6 @@
-# Portfólio profissional
+# Portfólio profissional - Herbert Ribeiro Sampaio
 
-> Portfólio Profissional
+> Portfólio Profissional - Herbert Ribeiro Sampaio
 
 [Clique aqui para acessar](https://herbertribeiro19.github.io/portfolio-new/)
 
