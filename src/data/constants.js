@@ -569,6 +569,28 @@ export const projects = [
     webapp: "https://github.com/herbertribeiro19/AwesomeProject",
   },
   {
+    id: 16,
+    title: "IMC Calculate App",
+    date: "Apr 2024",
+    description:
+      "Aplication of IMC Calculate App to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
+    image:
+      "https://github.com/herbertribeiro19/ImcCode/blob/master/assets/bg.jpg?raw=true",
+    tags: [
+      "React Native",
+      "Expo",
+      "API",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/ImcCode",
+    webapp: "https://github.com/herbertribeiro19/ImcCode",
+  },
+  {
     id: 15,
     title: "Convert DolarReal App",
     date: "Dez 2023",
