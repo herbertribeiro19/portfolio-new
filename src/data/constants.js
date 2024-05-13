@@ -287,6 +287,27 @@ export const education = [
 
 export const projects = [
   {
+    id: 17,
+    title: "FlixNet - Movies",
+    date: "Apr 2024 - Apr 2024",
+    description: "A movie website with Netflix design",
+    image:
+      "https://github.com/herbertribeiro19/FlixNet/assets/84207944/3e3606a7-c7e2-4537-8eab-b8e684c33a01?raw=true",
+    tags: [
+      "ReactJS",
+      "JavaScript",
+      "API MovieDB",
+      "JSON",
+      "CSS",
+      "Git",
+      "GitHub",
+    ],
+    category: "web app",
+    github: "https://github.com/herbertribeiro19/FlixNet",
+    webapp: "https://herbertribeiro19.github.io/FlixNet",
+  },
+
+  {
     id: 0,
     title: "God of War",
     date: "Jan 2023 - Mar 2023",
