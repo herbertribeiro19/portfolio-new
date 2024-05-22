@@ -185,8 +185,8 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://scontent.fssa3-1.fna.fbcdn.net/v/t39.30808-6/303130455_385042277135568_5357019035371369044_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YBRJOaKlMvgAb6xiWj3&_nc_zt=23&_nc_ht=scontent.fssa3-1.fna&oh=00_AfDsjYgvEo3MNcXoSwct0F9cUyCocw6u3qB5txwM4HfAkA&oe=662C9EFE",
-    role: "UI/UX Designer - Freelancer",
+    img: "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/logozenbytes.png",
+    role: "Mobile Developer e UI/UX Designer - Freelancer",
     company: "Zenbytes",
     date: "Mar 2024 - Present",
     desc: "Protype of Systems to new project Development",
@@ -304,7 +304,8 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/herbertribeiro19/FlixNet",
-    webapp: "https://herbertribeiro19.github.io/FlixNet",
+    webapp:
+      "https://flix-net-site-7lg3e7a1w-herbertribeiro19s-projects.vercel.app",
   },
 
   {
