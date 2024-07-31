@@ -504,6 +504,106 @@ export const projects = [
     webapp:
       "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
   },
+
+  {
+    id: 20,
+    title: "Coinbase App",
+    date: "May 2024",
+    description:
+      "Bitcoin updates values in real time aplication to mobile - made on MacOS with React Native 📱",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/coinbase/master/assets/thumb.jpg?token=GHSAT0AAAAAACPYD2XTQP634POUYNTWMBE6ZS5HSKA",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "API consume bitcoin updates",
+      "Chart Framework",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/coinbase/",
+    webapp: "https://github.com/herbertribeiro19/coinbase/",
+  },
+  {
+    id: 14,
+    title: "Finance Bank App",
+    date: "Apr 2024",
+    description:
+      "Finance Bank Aplication to Mobile made on MacOS with React Native 📱",
+    image:
+      "https://github.com/herbertribeiro19/AwesomeProject/blob/c8c657dbcae0155f94384f91b1c967d226161690/assets/capa_app.png?raw=true",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/AwesomeProject",
+    webapp: "https://github.com/herbertribeiro19/AwesomeProject",
+  },
+  {
+    id: 22,
+    title: "Trip Search App",
+    date: "Jun 2024",
+    description:
+      "The user can choose a especify city and select the days, after search, the API will return the best places to go in a trip.",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/Tripapp/main/assets/thumb.png",
+    tags: [
+      "React Native",
+      "Expo",
+      "OpenAI API",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "TypeScript",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/Tripapp",
+    webapp: "https://github.com/herbertribeiro19/Tripapp",
+  },
+  {
+    id: 16,
+    title: "IMC Calculate App",
+    date: "Apr 2024",
+    description:
+      "Aplication of IMC Calculate App to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
+    image:
+      "https://github.com/herbertribeiro19/ImcCode/blob/master/assets/bg.jpg?raw=true",
+    tags: [
+      "React Native",
+      "Expo",
+      "API",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/ImcCode",
+    webapp: "https://github.com/herbertribeiro19/ImcCode",
+  },
+  {
+    id: 15,
+    title: "Convert DolarReal App",
+    date: "Dez 2023",
+    description: "Aplication of Conversion to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/Flutter_NewApp_Convert/blob/18469098cbf3bdb2b802cd16f0c722c9290d521b/assets/images/imgCapa.png?raw=true",
+    tags: ["Dart", "Flutter", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
+    webapp: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
+  },
   {
     id: 11,
     title: "iMarket - IOS App",
@@ -527,6 +627,7 @@ export const projects = [
     webapp:
       "https://www.figma.com/community/file/1308587401731650667/apple-ios-shopping-app-imarket",
   },
+
   {
     id: 12,
     title: "Adidas Shopping App",
@@ -568,61 +669,6 @@ export const projects = [
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     webapp:
       "https://www.figma.com/community/file/1286500198572812973/uaimusic-music-interface",
-  },
-  {
-    id: 14,
-    title: "Finance Bank App",
-    date: "Apr 2024",
-    description:
-      "Finance Bank Aplication to Mobile made on MacOS with React Native 📱",
-    image:
-      "https://github.com/herbertribeiro19/AwesomeProject/blob/c8c657dbcae0155f94384f91b1c967d226161690/assets/capa_app.png?raw=true",
-    tags: [
-      "React Native",
-      "Expo",
-      "Xcode",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/AwesomeProject",
-    webapp: "https://github.com/herbertribeiro19/AwesomeProject",
-  },
-  {
-    id: 16,
-    title: "IMC Calculate App",
-    date: "Apr 2024",
-    description:
-      "Aplication of IMC Calculate App to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
-    image:
-      "https://github.com/herbertribeiro19/ImcCode/blob/master/assets/bg.jpg?raw=true",
-    tags: [
-      "React Native",
-      "Expo",
-      "API",
-      "Xcode",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/ImcCode",
-    webapp: "https://github.com/herbertribeiro19/ImcCode",
-  },
-  {
-    id: 15,
-    title: "Convert DolarReal App",
-    date: "Dez 2023",
-    description: "Aplication of Conversion to Mobile (IOS and Android) 📱",
-    image:
-      "https://github.com/herbertribeiro19/Flutter_NewApp_Convert/blob/18469098cbf3bdb2b802cd16f0c722c9290d521b/assets/images/imgCapa.png?raw=true",
-    tags: ["Dart", "Flutter", "Git", "GitHub"],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
-    webapp: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
   },
 ];
 
