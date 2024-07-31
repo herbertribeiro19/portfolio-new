@@ -507,12 +507,35 @@ export const projects = [
 
   {
     id: 20,
+    title: "App Public Transport SP",
+    date: "Jul 2024",
+    description:
+      "Application that provides information on public transport in the city of São Paulo (Olho Vivo API). Such as Lines, Buses, Terminals and Points. 📱",
+    image: "../../src/images/aikoapp.webp",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "API OlhoVivo - SP",
+      "Chart Framework",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/AppAiko",
+    webapp: "https://github.com/herbertribeiro19/AppAiko",
+  },
+
+  {
+    id: 20,
     title: "Coinbase App",
     date: "May 2024",
     description:
       "Bitcoin updates values in real time aplication to mobile - made on MacOS with React Native 📱",
     image:
-      "https://raw.githubusercontent.com/herbertribeiro19/coinbase/master/assets/thumb.jpg?token=GHSAT0AAAAAACPYD2XTQP634POUYNTWMBE6ZS5HSKA",
+      "https://raw.githubusercontent.com/herbertribeiro19/coinbase/master/assets/thumb.jpg?token=GHSAT0AAAAAACPYD2XS6EXHB2XRVLFCIEZYZTR6DYA",
     tags: [
       "React Native",
       "Expo",
@@ -591,6 +614,28 @@ export const projects = [
     category: "mobile app",
     github: "https://github.com/herbertribeiro19/ImcCode",
     webapp: "https://github.com/herbertribeiro19/ImcCode",
+  },
+  {
+    id: 24,
+    title: "WeatherApp",
+    date: "Jun 2024",
+    description:
+      "Aplication of Weather to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/imgweather2.png",
+    tags: [
+      "React Native",
+      "Expo",
+      "WeatherAPI",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/WeatherApp",
+    webapp: "https://github.com/herbertribeiro19/WeatherApp",
   },
   {
     id: 15,
