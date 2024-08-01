@@ -20,6 +20,21 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/200px-Typescript_logo_2020.svg.png",
+      },
+      {
+        name: "Flutter",
+        image:
+          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      },
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -34,11 +49,6 @@ export const skills = [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ16uhmICHnoGAIIbWkj-rUIa8CWvYYxpr1nrNSl8cdONZ3YvGeCryo_gj9bl57reyjpmA&usqp=CAU",
       },
       {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
@@ -47,11 +57,6 @@ export const skills = [
         name: "Material UI",
         image:
           "data:image/png;base64,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",
-      },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
       },
     ],
   },
@@ -101,11 +106,6 @@ export const skills = [
         image:
           "https://cdn.icon-icons.com/icons2/2699/PNG/512/swift_logo_icon_168770.png",
       },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
     ],
   },
   {
@@ -126,9 +126,9 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
-        name: "VS Code",
+        name: "XCode",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Xcode_14_icon.png/120px-Xcode_14_icon.png",
       },
       {
         name: "Figma",
@@ -162,7 +162,47 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4D0BAQF8APrQIpJWSQ/company-logo_200_200/0/1643685760144/verde_agritech_logo?e=1717632000&v=beta&t=TH9EGgdmW9KOifQmb--ZPHe-TL0kH1fqWWD7p3slPzc",
+    img: "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/logozenbytes.png",
+    role: "Mobile Developer e UI/UX Designer - Freelancer",
+    company: "Zenbytes",
+    date: "Mar 2024 - Present",
+    desc: "Protype of Systems to new project Development",
+    skills: [
+      "ReactNative",
+      "TypeScript",
+      "JavaScript",
+      "Figma",
+      "UI",
+      "UX",
+      "Designer UI/UX",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Material UI",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/C560BAQEvvV-zVynUDA/company-logo_200_200/0/1635278684012/labtrackensino_logo?e=2147483647&v=beta&t=vNMqJ_3fhtuV1_MWIMS7KFKC85JIcHgBR8_LSPDlDnE",
+    role: "FrontEnd Developer - Freelancer",
+    company: "LabTrack",
+    date: "Mar 2024 - Mar 2024",
+    desc: "Development of Functional System to a english school",
+    skills: [
+      "ReactNative",
+      "TypeScript",
+      "JavaScript",
+      "RestAPI",
+      "ReactJS",
+      "CSS",
+      "HTML",
+      "NextJS",
+      "PWA",
+      "Figma",
+    ],
+  },
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/C4D0BAQF8APrQIpJWSQ/company-logo_200_200/0/1643685760144/verde_agritech_logo?e=1730332800&v=beta&t=_6xYUYCm3FcDX0FEp5Ai4BKywSAgaCkmNHDuOWjXUNE",
     role: "FrontEnd Developer and Designer UI/UX Pleno",
     company: "Verde Agritech",
     date: "Jan 2022 - Present",
@@ -171,6 +211,7 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
+      "TypeScript",
       "PHP",
       "MySQL",
       "Figma",
@@ -184,34 +225,30 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
-    img: "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/logozenbytes.png",
-    role: "Mobile Developer e UI/UX Designer - Freelancer",
-    company: "Zenbytes",
-    date: "Mar 2024 - Present",
-    desc: "Protype of Systems to new project Development",
+    id: 3,
+    img: "https://udop.com.br/u_img/noticias/2022/07_03_2022_embrapa.jpg",
+    role: "Software Developer Intern",
+    company: "Embrapa - Federal Organization",
+    date: "Oct 2021 - Jan 2022",
+    desc: "Assistance in meeting the demands of technical support in software in the IT service center (NTI) and support to software development activities",
     skills: [
+      "ReactNative",
+      "TypeScript",
+      "JavaScript",
+      "RestAPI",
+      "HTML",
+      "CSS",
+      "Flutter",
+      "Dart",
       "Figma",
-      "UI",
-      "UX",
-      "Designer UI/UX",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Material UI",
+      "ReactJS",
+      "NodeJS",
+      "Firebase",
     ],
   },
   {
-    id: 5,
-    img: "https://media.licdn.com/dms/image/C560BAQEvvV-zVynUDA/company-logo_200_200/0/1635278684012/labtrackensino_logo?e=2147483647&v=beta&t=vNMqJ_3fhtuV1_MWIMS7KFKC85JIcHgBR8_LSPDlDnE",
-    role: "FrontEnd Developer - Freelancer",
-    company: "LabTrack",
-    date: "Mar 2024 - Mar 2024",
-    desc: "Development of Functional System to a english school",
-    skills: ["HTML", "CSS", "TypeScript", "ReactJS", "NextJS", "PWA", "Figma"],
-  },
-  {
-    id: 1,
-    img: "https://cumply.com.br/wp-content/uploads/2023/08/logo-822x1024.png",
+    id: 4,
+    img: "https://media.licdn.com/dms/image/D4D0BAQFzEkDqo02Xmg/company-logo_200_200/0/1705951992040?e=1730332800&v=beta&t=brbz43GwdJ01TcI5Y1_NMapawHGyFOlIAcXXUz49S5U",
     role: "Software Developer - Freelancer (Partner)",
     company: "Cumply™ - Clothing",
     date: "Jan 2019 - Present",
@@ -221,38 +258,39 @@ export const experiences = [
       "CSS",
       "Flutter",
       "Dart",
+      "ReactNative",
+      "TypeScript",
       "JavaScript",
+      "RestAPI",
       "ReactJS",
-      "UI/UX Designer",
+      "UI/UX",
       "Figma",
-      "Material UI",
       "Web Hosting",
-      "Wordpress",
-      "API Integration",
     ],
   },
   {
-    id: 2,
-    img: "https://udop.com.br/u_img/noticias/2022/07_03_2022_embrapa.jpg",
-    role: "Software Developer Intern",
-    company: "Embrapa - Federal Organization",
-    date: "Oct 2021 - Jan 2022",
-    desc: "Assistance in meeting the demands of technical support in hardware and software in the IT service center (NTI) and support to software development activities",
+    id: 5,
+    img: "data:image/png;base64,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",
+    role: "Software Developer",
+    company: "Federal Institute",
+    date: "May 2018 - Mar 2020",
+    desc: "Development of Applications Mobile and Web to Teachers and Cordinators.",
     skills: [
+      "ReactNative",
+      "TypeScript",
+      "JavaScript",
+      "RestAPI",
       "HTML",
       "CSS",
-      "JavaScript",
       "Flutter",
       "Dart",
-      "Kotlin",
       "Figma",
       "ReactJS",
       "NodeJS",
-      "API Integration",
       "Firebase",
-      "Hardware Support",
     ],
   },
+
   {
     id: 3,
     img: "data:image/png;base64,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",
@@ -267,10 +305,10 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQGezs_RrStDCw/company-logo_200_200/0/1688742772762/universidade_federal_de_vicosa_logo?e=1717632000&v=beta&t=nvyNxFWT-pmEtf1el-dRiawrHuE8_YFrkyp4etOkqKQ",
+    img: "https://i2.wp.com/www.100kstrongamericas.org/wp-content/uploads/2017/11/federal-vicosa.png?resize=1140%2C458&ssl=1",
     school: "Federal University of Viçosa",
     date: "May 2021 - Present",
-    grade: "67.0 (In Progress)",
+    grade: "70.0 (In Progress)",
     desc: "Graduating in Information Systems at the Federal University of Viçosa - Rio Paranaíba Campus, located in the interior of Minas Gerais.",
     degree: "Bachelor of Technology - Information Systems",
   },
@@ -478,40 +516,13 @@ export const projects = [
     webapp: "https://herbertribeiro19.github.io/Login/",
   },
   {
-    id: 9,
-    title: "Shopping App",
-    date: "May 2023",
-    description: "Aplication of Shopping to Mobile (IOS and Android) 📱",
-    image:
-      "https://github.com/herbertribeiro19/app_layout/blob/master/assets/screenshots/phonemockup1.png?raw=true",
-    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/app_layout",
-    webapp:
-      "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
-  },
-  {
-    id: 10,
-    title: "ToDo List Market App",
-    date: "Mar 2023",
-    description:
-      "Aplication of ToDo List Market to Mobile (IOS and Android) 📱",
-    image:
-      "https://github.com/herbertribeiro19/balta01app/blob/master/assets/img-app2.jpg?raw=true",
-    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/balta01app",
-    webapp:
-      "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
-  },
-
-  {
     id: 20,
     title: "App Public Transport SP",
     date: "Jul 2024",
     description:
       "Application that provides information on public transport in the city of São Paulo (Olho Vivo API). Such as Lines, Buses, Terminals and Points. 📱",
-    image: "../../src/images/aikoapp.webp",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/aikoapp.webp",
     tags: [
       "React Native",
       "Expo",
@@ -535,7 +546,7 @@ export const projects = [
     description:
       "Bitcoin updates values in real time aplication to mobile - made on MacOS with React Native 📱",
     image:
-      "https://raw.githubusercontent.com/herbertribeiro19/coinbase/master/assets/thumb.jpg?token=GHSAT0AAAAAACPYD2XS6EXHB2XRVLFCIEZYZTR6DYA",
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/coinbase.webp",
     tags: [
       "React Native",
       "Expo",
@@ -636,6 +647,33 @@ export const projects = [
     category: "mobile app",
     github: "https://github.com/herbertribeiro19/WeatherApp",
     webapp: "https://github.com/herbertribeiro19/WeatherApp",
+  },
+  {
+    id: 9,
+    title: "Shopping App",
+    date: "May 2023",
+    description: "Aplication of Shopping to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/app_layout/blob/master/assets/screenshots/phonemockup1.png?raw=true",
+    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/app_layout",
+    webapp:
+      "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
+  },
+  {
+    id: 10,
+    title: "ToDo List Market App",
+    date: "Mar 2023",
+    description:
+      "Aplication of ToDo List Market to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/balta01app/blob/master/assets/img-app2.jpg?raw=true",
+    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/balta01app",
+    webapp:
+      "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
   },
   {
     id: 15,
