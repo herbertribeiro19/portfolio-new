@@ -176,7 +176,7 @@ export const experiences = [
     role: "Fullstack Developer (Mobile and Web) - PJ",
     company: "AIDA BUSINESS",
     date: "Nov 2024 - Present",
-    desc: "Working on the development of a new robust and complete ERP and POS (A.R.V.I.S) for the market. In the team I work as a FullStack Web and Mobile developer.",
+    desc: "Working on the development of a new robust and complete ERP and PDV (A.R.V.I.S) for the market. In the team I work as a FullStack Web and Mobile developer.",
     skills: [
       "ReactNative",
       "TypeScript",
