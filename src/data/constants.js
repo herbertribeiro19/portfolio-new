@@ -191,6 +191,23 @@ export const experiences = [
     ],
   },
   {
+    id: 12,
+    img: "https://github.com/herbertribeiro19/LitteraApp/blob/master/assets/icon.png?raw=true",
+    role: "Cofounder and Developer",
+    company: "Littera App",
+    date: "Out 2024 - Present",
+    desc: "Co-founder, creator and developer of Littera App, an app that connects passionate readers and facilitates the purchase, exchange and donation of books, making reading more accessible, sustainable and collaborative. I was one of the people responsible for developing the app using React Native.",
+    skills: [
+      "ReactNative",
+      "Figma",
+      "TypeScript",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "DataBase",
+    ],
+  },
+  {
     id: 1,
     img: "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/logozenbytes.png",
     role: "Mobile Developer and UI/UX Designer - Freelancer",
@@ -256,7 +273,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://feconex.com.br/wp-content/uploads/2024/04/embrapa.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnBP8qhGX-d4fxMgAL_TUDYBeEJqZWk3fzvw&s",
     role: "Software Developer Intern",
     company: "Embrapa - Federal Organization",
     date: "Oct 2021 - Jan 2022",
@@ -278,7 +295,7 @@ export const experiences = [
   },
   {
     id: 5,
-    img: "https://media.licdn.com/dms/image/D4D0BAQFzEkDqo02Xmg/company-logo_200_200/0/1705951992040?e=1730332800&v=beta&t=brbz43GwdJ01TcI5Y1_NMapawHGyFOlIAcXXUz49S5U",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQFzEkDqo02Xmg/company-logo_200_200/company-logo_200_200/0/1705951992040?e=1747872000&v=beta&t=KQoMBNVMNlBVyxg7zd-szDD9h21jmfNrBmQQAGHPSQM",
     role: "Software Developer - Freelancer (Partner)",
     company: "Cumply™ - Clothing",
     date: "Jan 2019 - Present",
@@ -354,6 +371,228 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 28,
+    title: "Littera App - Each reader, a new story!",
+    date: "Out 2024",
+    description:
+      "Co-founder, creator and developer of Littera App, an app that connects passionate readers and facilitates the purchase, exchange and donation of books, making reading more accessible, sustainable and collaborative. I was one of the people responsible for developing the app using React Native.📱",
+    image:
+      "https://github.com/herbertribeiro19/portfolio-new/blob/master/src/images/Pitch%20Littera%20app.jpg?raw=true",
+    tags: [
+      "React Native",
+      "JavaSript",
+      "NodeJs",
+      "Expo Go",
+      "Deploy - Apple/Play Store",
+      "Axios",
+      "Hooks",
+      "Xcode - IOS Emulator",
+      "Rest API",
+      "React Navigator",
+      "Figma",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/LitteraApp",
+    webapp: "https://github.com/herbertribeiro19/LitteraApp",
+  },
+  {
+    id: 27,
+    title: "App Star Store - Ecommerce",
+    date: "Jul 2024",
+    description:
+      "E-commerce application, where the user can add products (from the API) to the cart and complete the purchase process, adding credit card data that is saved in the database along with the user information. 📱",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/starstore.png",
+    tags: [
+      "React Native",
+      "TypeSript",
+      "SQLite",
+      "NodeJs",
+      "Expo",
+      "Axios",
+      "Hooks",
+      "Xcode - IOS Emulator",
+      "API StarStore",
+      "Context API",
+      "Figma (UI Design by me)",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/AppStarStore",
+    webapp: "https://github.com/herbertribeiro19/AppStarStore",
+  },
+  {
+    id: 20,
+    title: "App Public Transport SP",
+    date: "Jul 2024",
+    description:
+      "Application that provides information on public transport in the city of São Paulo (Olho Vivo API). Such as Lines, Buses, Terminals and Points. 📱",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/aikoapp.webp",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "API OlhoVivo - SP",
+      "Chart Framework",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/AppAiko",
+    webapp: "https://github.com/herbertribeiro19/AppAiko",
+  },
+
+  {
+    id: 20,
+    title: "Coinbase App",
+    date: "May 2024",
+    description:
+      "Bitcoin updates values in real time aplication to mobile - made on MacOS with React Native 📱",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/coinbase.webp",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "API consume bitcoin updates",
+      "Chart Framework",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/coinbase/",
+    webapp: "https://github.com/herbertribeiro19/coinbase/",
+  },
+  {
+    id: 14,
+    title: "Finance Bank App",
+    date: "Apr 2024",
+    description:
+      "Finance Bank Aplication to Mobile made on MacOS with React Native 📱",
+    image:
+      "https://github.com/herbertribeiro19/AwesomeProject/blob/c8c657dbcae0155f94384f91b1c967d226161690/assets/capa_app.png?raw=true",
+    tags: [
+      "React Native",
+      "Expo",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/AwesomeProject",
+    webapp: "https://github.com/herbertribeiro19/AwesomeProject",
+  },
+  {
+    id: 22,
+    title: "Trip Search App",
+    date: "Jun 2024",
+    description:
+      "The user can choose a especify city and select the days, after search, the API will return the best places to go in a trip.",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/Tripapp/main/assets/thumb.png",
+    tags: [
+      "React Native",
+      "Expo",
+      "OpenAI API",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "TypeScript",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/Tripapp",
+    webapp: "https://github.com/herbertribeiro19/Tripapp",
+  },
+  {
+    id: 16,
+    title: "IMC Calculate App",
+    date: "Apr 2024",
+    description:
+      "Aplication of IMC Calculate App to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
+    image:
+      "https://github.com/herbertribeiro19/ImcCode/blob/master/assets/bg.jpg?raw=true",
+    tags: [
+      "React Native",
+      "Expo",
+      "API",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/ImcCode",
+    webapp: "https://github.com/herbertribeiro19/ImcCode",
+  },
+  {
+    id: 24,
+    title: "WeatherApp",
+    date: "Jun 2024",
+    description:
+      "Aplication of Weather to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
+    image:
+      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/imgweather2.png",
+    tags: [
+      "React Native",
+      "Expo",
+      "WeatherAPI",
+      "Xcode",
+      "Git",
+      "GitHub",
+      "Switft",
+      "Kotlin",
+    ],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/WeatherApp",
+    webapp: "https://github.com/herbertribeiro19/WeatherApp",
+  },
+  {
+    id: 9,
+    title: "Shopping App",
+    date: "May 2023",
+    description: "Aplication of Shopping to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/app_layout/blob/master/assets/screenshots/phonemockup1.png?raw=true",
+    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/app_layout",
+    webapp:
+      "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
+  },
+  {
+    id: 10,
+    title: "ToDo List Market App",
+    date: "Mar 2023",
+    description:
+      "Aplication of ToDo List Market to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/balta01app/blob/master/assets/img-app2.jpg?raw=true",
+    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/balta01app",
+    webapp:
+      "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
+  },
+  {
+    id: 15,
+    title: "Convert DolarReal App",
+    date: "Dez 2023",
+    description: "Aplication of Conversion to Mobile (IOS and Android) 📱",
+    image:
+      "https://github.com/herbertribeiro19/Flutter_NewApp_Convert/blob/18469098cbf3bdb2b802cd16f0c722c9290d521b/assets/images/imgCapa.png?raw=true",
+    tags: ["Dart", "Flutter", "Git", "GitHub"],
+    category: "mobile app",
+    github: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
+    webapp: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
+  },
   {
     id: 17,
     title: "FlixNet - Movies",
@@ -544,205 +783,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/herbertribeiro19/Login",
     webapp: "https://herbertribeiro19.github.io/Login/",
-  },
-  {
-    id: 27,
-    title: "App Star Store - Ecommerce",
-    date: "Jul 2024",
-    description:
-      "E-commerce application, where the user can add products (from the API) to the cart and complete the purchase process, adding credit card data that is saved in the database along with the user information. 📱",
-    image:
-      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/starstore.png",
-    tags: [
-      "React Native",
-      "TypeSript",
-      "SQLite",
-      "NodeJs",
-      "Expo",
-      "Axios",
-      "Hooks",
-      "Xcode - IOS Emulator",
-      "API StarStore",
-      "Context API",
-      "Switft",
-      "Kotlin",
-      "Figma (UI Design by me)",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/AppStarStore",
-    webapp: "https://github.com/herbertribeiro19/AppStarStore",
-  },
-  {
-    id: 20,
-    title: "App Public Transport SP",
-    date: "Jul 2024",
-    description:
-      "Application that provides information on public transport in the city of São Paulo (Olho Vivo API). Such as Lines, Buses, Terminals and Points. 📱",
-    image:
-      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/aikoapp.webp",
-    tags: [
-      "React Native",
-      "Expo",
-      "Xcode",
-      "API OlhoVivo - SP",
-      "Chart Framework",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/AppAiko",
-    webapp: "https://github.com/herbertribeiro19/AppAiko",
-  },
-
-  {
-    id: 20,
-    title: "Coinbase App",
-    date: "May 2024",
-    description:
-      "Bitcoin updates values in real time aplication to mobile - made on MacOS with React Native 📱",
-    image:
-      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/coinbase.webp",
-    tags: [
-      "React Native",
-      "Expo",
-      "Xcode",
-      "API consume bitcoin updates",
-      "Chart Framework",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/coinbase/",
-    webapp: "https://github.com/herbertribeiro19/coinbase/",
-  },
-  {
-    id: 14,
-    title: "Finance Bank App",
-    date: "Apr 2024",
-    description:
-      "Finance Bank Aplication to Mobile made on MacOS with React Native 📱",
-    image:
-      "https://github.com/herbertribeiro19/AwesomeProject/blob/c8c657dbcae0155f94384f91b1c967d226161690/assets/capa_app.png?raw=true",
-    tags: [
-      "React Native",
-      "Expo",
-      "Xcode",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/AwesomeProject",
-    webapp: "https://github.com/herbertribeiro19/AwesomeProject",
-  },
-  {
-    id: 22,
-    title: "Trip Search App",
-    date: "Jun 2024",
-    description:
-      "The user can choose a especify city and select the days, after search, the API will return the best places to go in a trip.",
-    image:
-      "https://raw.githubusercontent.com/herbertribeiro19/Tripapp/main/assets/thumb.png",
-    tags: [
-      "React Native",
-      "Expo",
-      "OpenAI API",
-      "Xcode",
-      "Git",
-      "GitHub",
-      "TypeScript",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/Tripapp",
-    webapp: "https://github.com/herbertribeiro19/Tripapp",
-  },
-  {
-    id: 16,
-    title: "IMC Calculate App",
-    date: "Apr 2024",
-    description:
-      "Aplication of IMC Calculate App to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
-    image:
-      "https://github.com/herbertribeiro19/ImcCode/blob/master/assets/bg.jpg?raw=true",
-    tags: [
-      "React Native",
-      "Expo",
-      "API",
-      "Xcode",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/ImcCode",
-    webapp: "https://github.com/herbertribeiro19/ImcCode",
-  },
-  {
-    id: 24,
-    title: "WeatherApp",
-    date: "Jun 2024",
-    description:
-      "Aplication of Weather to Mobile (IOS and Android) 📱, development on MacOS 14.4 Version.",
-    image:
-      "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/imgweather2.png",
-    tags: [
-      "React Native",
-      "Expo",
-      "WeatherAPI",
-      "Xcode",
-      "Git",
-      "GitHub",
-      "Switft",
-      "Kotlin",
-    ],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/WeatherApp",
-    webapp: "https://github.com/herbertribeiro19/WeatherApp",
-  },
-  {
-    id: 9,
-    title: "Shopping App",
-    date: "May 2023",
-    description: "Aplication of Shopping to Mobile (IOS and Android) 📱",
-    image:
-      "https://github.com/herbertribeiro19/app_layout/blob/master/assets/screenshots/phonemockup1.png?raw=true",
-    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/app_layout",
-    webapp:
-      "https://drive.google.com/drive/folders/166UAKhdEAO6uKy3BjO4WD_Vdm2nE__7d?usp=share_link",
-  },
-  {
-    id: 10,
-    title: "ToDo List Market App",
-    date: "Mar 2023",
-    description:
-      "Aplication of ToDo List Market to Mobile (IOS and Android) 📱",
-    image:
-      "https://github.com/herbertribeiro19/balta01app/blob/master/assets/img-app2.jpg?raw=true",
-    tags: ["Dart", "Flutter", "Android Studio", "Git", "GitHub"],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/balta01app",
-    webapp:
-      "https://drive.google.com/file/d/1SxyUEpTwBHV2DLfeznmXqPXssQ2mEfDN/view?usp=sharing",
-  },
-  {
-    id: 15,
-    title: "Convert DolarReal App",
-    date: "Dez 2023",
-    description: "Aplication of Conversion to Mobile (IOS and Android) 📱",
-    image:
-      "https://github.com/herbertribeiro19/Flutter_NewApp_Convert/blob/18469098cbf3bdb2b802cd16f0c722c9290d521b/assets/images/imgCapa.png?raw=true",
-    tags: ["Dart", "Flutter", "Git", "GitHub"],
-    category: "mobile app",
-    github: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
-    webapp: "https://github.com/herbertribeiro19/Flutter_NewApp_Convert",
   },
   {
     id: 11,
