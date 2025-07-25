@@ -15,7 +15,7 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "ReactJs",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -33,10 +33,6 @@ export const skills = [
         name: "NextJS",
         image:
           "https://images.seeklogo.com/logo-png/44/1/next-js-logo-png_seeklogo-449824.png",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
         name: "CSS",
@@ -69,14 +65,14 @@ export const skills = [
           "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png",
       },
       {
-        name: "Flutter",
+        name: "Expo",
         image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtBjh1WGyI6t2_fPkj6CKntQUTcffNvTaPMsbpmvrkUyC4xZlv1oT0frZt5z0Zim0pT0&usqp=CAU",
       },
       {
-        name: "Dart",
+        name: "TypeScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Dart_logo.png/768px-Dart_logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/200px-Typescript_logo_2020.svg.png",
       },
       {
         name: "Swift",
@@ -89,7 +85,7 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
+        name: "NodeJs",
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
@@ -126,21 +122,6 @@ export const skills = [
         image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "XCode",
-        image:
-          "https://seeklogo.com/images/X/xcode-logo-D2046A7713-seeklogo.com.png",
-      },
-      {
         name: "Figma",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
@@ -171,11 +152,63 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 15,
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQFxkLcJLZy0eQ/company-logo_200_200/B4DZW1O5OJH4AQ-/0/1742502335785/linxretail_logo?e=1756339200&v=beta&t=ANntpw_RJhXWMIoD0B4ThPh7ReMdir_94BrWIA90ihw",
+    role: "Mobile Developer II",
+    company: "Linx/Totvs - Sponte",
+    date: "Nov 2024 - Present",
+    desc: "Working on app of Sponte Agenda Plus - a mobile app for students and parents to manage your school activities. Contain more than 100.000 users every month.",
+    skills: [
+      "ReactNative",
+      "TypeScript",
+      "Expo",
+      "Store Apps Management",
+      "IOS",
+      "Android",
+      "ReactJS",
+    ],
+  },
+  {
+    id: 14,
+    img: "https://raw.githubusercontent.com/herbertribeiro19/aplicabus-mobile/refs/heads/main/assets/splash-icon.png?token=GHSAT0AAAAAADHW2CPBVWDQBO2HPVCKNZD42EC5WHQ",
+    role: "Mobile Developer - Part Time",
+    company: "Freelancer",
+    date: "Ago 2025 - Present",
+    desc: "Working on AplicaBus, a mobile app to drivers and passengers to follow the bus route and get notifications about the bus schedule in real time.",
+    skills: [
+      "ReactNative",
+      "TypeScript",
+      "Expo",
+      "Store Apps Management",
+      "IOS",
+      "Android",
+    ],
+  },
+  {
+    id: 12,
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQE1NG5JKxIKRg/company-logo_100_100/B4DZgOhG7KGsAU-/0/1752590218745?e=1756339200&v=beta&t=UXj-ujU-czPT8ouUPi9JxJ5_PmTtKF-1PuD7Yt4v1zI",
+    role: "Cofounder",
+    company: "TrySrc Company",
+    date: "Jan 2025 - Present",
+    desc: "Co-founder, creator and developer of Littera App and BiPejota (in progress). ",
+    skills: [
+      "ReactNative",
+      "Expo",
+      "TypeScript",
+      "JavaScript",
+      "Docker",
+      "MariaDB",
+      "DataBase",
+      "Store Apps Management",
+      "Figma",
+    ],
+  },
+  {
+    id: 13,
     img: "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/refs/heads/master/src/images/logoaida.jpeg",
     role: "Fullstack Developer (Mobile and Web) - PJ",
     company: "AIDA BUSINESS",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - Ago 2025",
     desc: "Working on the development of a new robust and complete ERP and PDV (A.R.V.I.S) for the market. In the team I work as a FullStack Web and Mobile developer.",
     skills: [
       "ReactNative",
@@ -188,43 +221,6 @@ export const experiences = [
       "PHP",
       "MySQL",
       "DataBase",
-    ],
-  },
-  {
-    id: 12,
-    img: "https://github.com/herbertribeiro19/LitteraApp/blob/master/assets/icon.png?raw=true",
-    role: "Cofounder and Developer",
-    company: "Littera App",
-    date: "Out 2024 - Present",
-    desc: "Co-founder, creator and developer of Littera App, an app that connects passionate readers and facilitates the purchase, exchange and donation of books, making reading more accessible, sustainable and collaborative. I was one of the people responsible for developing the app using React Native.",
-    skills: [
-      "ReactNative",
-      "Figma",
-      "TypeScript",
-      "JavaScript",
-      "PHP",
-      "MySQL",
-      "DataBase",
-    ],
-  },
-  {
-    id: 1,
-    img: "https://raw.githubusercontent.com/herbertribeiro19/portfolio-new/master/src/images/logozenbytes.png",
-    role: "Mobile Developer and UI/UX Designer - Freelancer",
-    company: "Zenbytes",
-    date: "Mar 2024 - Ago 2024",
-    desc: "Protype of Systems to new project Development",
-    skills: [
-      "ReactNative",
-      "TypeScript",
-      "JavaScript",
-      "Figma",
-      "UI",
-      "UX",
-      "Designer UI/UX",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Material UI",
     ],
   },
   {
@@ -249,10 +245,10 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://verde.ag/wp-content/themes/hello-elementor/assets/images/logo.png",
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQF8APrQIpJWSQ/company-logo_100_100/company-logo_100_100/0/1643685760144/verde_agritech_logo?e=1756339200&v=beta&t=dJ5GGNzc4TeDM8GPCIycLG1wbkzlSuMVOp7lwwblU-k",
     role: "FrontEnd Developer and Designer UI/UX Pleno",
     company: "Verde Agritech",
-    date: "Jan 2022 - Present",
+    date: "Jan 2022 - Jul 2025",
     desc: "Development and protype of Websites and Landing Pages",
     skills: [
       "HTML",
@@ -291,28 +287,6 @@ export const experiences = [
       "ReactJS",
       "NodeJS",
       "Firebase",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQFzEkDqo02Xmg/company-logo_200_200/company-logo_200_200/0/1705951992040?e=1747872000&v=beta&t=KQoMBNVMNlBVyxg7zd-szDD9h21jmfNrBmQQAGHPSQM",
-    role: "Software Developer - Freelancer (Partner)",
-    company: "Cumply™ - Clothing",
-    date: "Jan 2019 - Present",
-    desc: "The development of Cumply's™ Website and Ecommerce was carried out",
-    skills: [
-      "HTML",
-      "CSS",
-      "Flutter",
-      "Dart",
-      "ReactNative",
-      "TypeScript",
-      "JavaScript",
-      "RestAPI",
-      "ReactJS",
-      "UI/UX",
-      "Figma",
-      "Web Hosting",
     ],
   },
   {
